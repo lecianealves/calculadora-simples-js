@@ -15,7 +15,7 @@ function calculate(event){
         if(display.value !== ''){
             display.value = eval(display.value);
         }
-    }else if(clickButtoValue === "C"){
+    }else if(clickButtoValue === "c"){
         display.value = ''
     }else{
         display.value += clickButtoValue;
